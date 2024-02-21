@@ -1,0 +1,101 @@
+.testimonials {
+    padding: 4rem;
+    margin: 1rem 0;
+}
+
+.testimonials .testHead {
+    color: #000000;
+    margin-bottom: 4rem;
+    font-weight: 600;
+}
+
+.testimonials .card {
+    width: 21.5rem;
+    border-radius: 3px;
+    border-color: rgb(211, 211, 211);
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+
+}
+
+.testimonials .card .box {
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECEFF0;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.testimonials .card .card-body {
+    margin-top: 0.6rem;
+}
+
+.testimonials .card .card-body .card-text {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.testimonials .card .card-title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.testimonials .card .date {
+    font-size: 13px;
+    color: rgb(144, 144, 144);
+    margin-bottom: 0.2rem;
+}
+
+.testimonials .card .review {
+    color: orange;
+}
+
+.testimonials .card .card-text {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+    .testimonials .card {
+        width: 17rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .testimonials {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .testimonials .card {
+        width: 15rem;
+    }
+}

@@ -1,0 +1,133 @@
+.blog {
+    padding: 2rem 3rem;
+}
+
+.blog .blogitem {
+    margin-bottom: 2.5rem;
+}
+
+.rowleft {
+    padding: 0;
+}
+
+.rowright {
+    padding: 0;
+}
+
+.blog .blogHeading {
+    color: #000000;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    padding-left: 3.5rem;
+}
+
+.itemContent .blogImg {
+    height: 350px;
+    width: 100%;
+}
+
+.itemRight {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ECEFF0;
+    height: 350px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.itemRight .blogbtn {
+    margin-top: auto;
+}
+
+.itemRight .itemtop {
+    color: #000000;
+    font-size: 22px;
+    padding-bottom: 2rem;
+}
+
+.itemRight .itemtop:hover {
+    color: #E1C343;
+}
+
+.itemRight .blogbtn .btn {
+    padding: 0.4rem 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.itemRight .blogbtn .btn:hover {
+    color: #E1C343;
+}
+
+.itemRight .itemHead {
+    text-align: justify;
+}
+
+.blogitem {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.blogitem.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media only screen and (max-width: 770px) {
+    .itemRight {
+        padding: 1rem;
+        text-align: center;
+        padding-top: 2rem;
+        height: 280px;
+        align-items: center;
+    }
+
+    .itemRight .itemtop {
+        padding-bottom: 1rem;
+    }
+
+    .itemRight .blogbtn {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .itemRight .itemHead {
+        font-size: 22px;
+    }
+
+    .blog {
+        padding: 1rem;
+    }
+
+    .itemContent .blogImg {
+        height: 300px;
+    }
+
+    .itemRight {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .itemRight {
+        padding: 0.5rem;
+        padding-top: 1rem;
+        height: 236px;
+    }
+
+    .itemRight .blogbtn {
+        margin-top: 0.5rem;
+    }
+
+    .itemRight .itemHead {
+        font-size: 20px;
+    }
+
+}

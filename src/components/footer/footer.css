@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+
+/* ======Footer CSS======== */
+.footer {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-top: 1px solid #eee;
+
+
+}
+
+.footer .link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+}
+
+.footer .link:hover {
+  color: #cdb136;
+}
+
+.footercont .footRight .footerlogo {
+  width: 190px;
+}
+
+.footercont .foothead {
+  color: #000000;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footercont .alllinks {
+  margin-top: 2rem;
+}
+
+.footercont .alllinks p {
+  margin-bottom: 0;
+}
+.footRight .socialIcons .item{
+  cursor: pointer;
+}
+@media only screen and (max-width: 1142px) {
+  .footer .link {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .footer .link {
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 770px) {
+  .footer .link {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,47 @@
+.footerTop {
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: #ECEFF0;
+    text-align: center;
+}
+
+.col-lg-6:not(:first-child) .newsletter {
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.footerTop .newsletter {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerTop .newsletter .form-control {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: white;
+    height: 40px;
+}
+
+.footerTop .newsletter .btn {
+    height: 39.9px;
+    padding: 7px 40px;
+    background-color: #000000;
+    color: #EDECEC;
+    position: relative;
+    border-radius: 10px;
+    font-size: 18px;
+    right: 10%;
+    clip-path: polygon(20% 0, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
+}
+
+.footerTop .newsletter .contactlink {
+    padding: 9px 40px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #EDECEC;
+    border-radius: 10px;
+    font-size: 19px;
+
+}

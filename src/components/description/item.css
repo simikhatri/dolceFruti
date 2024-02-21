@@ -1,0 +1,79 @@
+ .description {
+     padding: 10rem 0 5rem 0;
+ }
+
+ .description .rightSection h1 {
+     font-weight: 600;
+     margin-bottom: 0;
+     font-size: 3rem;
+ }
+
+ .description .rightSection h2 {
+     font-weight: 600;
+     margin-top: 0.5rem;
+ }
+
+ .description .rightSection .quantity {
+     margin: 0.5rem 0 0.7rem 0;
+     font-size: 18px;
+ }
+
+ .description .rightSection .poundbtn {
+     margin: 5.2rem 0 2rem 0;
+ }
+
+ .description .rightSection .poundbtn .btn {
+     background-color: #E1C343;
+     color: #000000;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: 400;
+     padding: 0.3rem 1.5rem;
+     width: 30%;
+ }
+
+ .description .rightSection .poundbtn .btn.selected {
+     background-color: #fed41c;
+     font-weight: 600;
+ }
+
+ .description .rightSection .poundbtn .btn:hover {
+     color: #E1C343;
+     background-color: black;
+ }
+
+
+ .description .rightSection .cartbtn .btn {
+     background-color: #000000;
+     color: #ffffff;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: 600;
+     padding: 0.3rem 1.5rem;
+     width: 45%;
+ }
+
+ .description .rightSection .cartbtn .btn:hover {
+     color: #E1C343;
+ }
+
+ .moreContent h4 {
+     font-weight: 600;
+     margin-bottom: 0.2rem;
+ }
+
+ .productReview {
+     display: flex;
+     align-items: center;
+     margin-top: 2rem;
+ }
+
+ .productReview h1 {
+     font-size: 3rem;
+     margin-right: 0.5rem;
+ }
+
+ .productReview .icon {
+     color: #f9a02c;
+     margin-right: 0.11rem;
+ }

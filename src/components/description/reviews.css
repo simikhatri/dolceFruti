@@ -1,0 +1,41 @@
+.Reviews {
+    background-color: #ECEFF0;
+    padding: 3rem 0;
+}
+
+.Reviews .Headreview {
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.Reviews .card {
+    padding: 1rem;
+}
+
+.Reviews .box {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    background-color: #ECEFF0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reviews .box p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Reviews .card .icon {
+    color: orange;
+}
+
+.reviewsImage img {
+    width: 90px;
+    height: 80px;
+    cursor: pointer;
+}

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* .shopContent {
+    padding: 4rem 3rem;
+    background-color: rgba(226, 205, 174, 0.19);
+    font-family: Poppins, sans-serif;
+}
+
+.baanerImg {
+    width: 400px;
+}
+
+.bannerRight {
+    text-align: right;
+}
+
+.shopContent .shopTitle {
+    font-size: 36px;
+    color: #e69300;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+.shopContent .shopdesc {
+    font-size: 16px;
+    color: #766251;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+/*=============== langing page css ==================*/
+
+.landing {
+    padding: 5rem 4rem;
+}
+
+.landItem .catHeading {
+    margin-bottom: 3.5rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.landing .landContent .card {
+    border: none;
+    padding: 10px;
+}
+
+.cat-title .link {
+    font-size: 1.19rem;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.cat-title .link:hover {
+    color: #cdb136;
+}
+
+.cat-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 10px solid #ffffff;
+    outline: 1px solid rgb(214, 214, 214);
+}
+
+/* ========Swipper========Css */
+.blogSwiper {
+    background-color: #ECEFF0;
+    padding: 4rem 1rem;
+}
+
+.blogSwiper .swiperHead {
+    color: #000000;
+    margin-bottom: 3.5rem;
+    font-weight: 600;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slide .card {
+    border-radius: 0;
+    width: 22.5rem;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 3.43949px 3.43949px 15.7961px rgb(0 0 0/6%);
+}
+
+.slide .card img {
+    border-radius: 10px;
+    height: 215px;
+    object-fit: cover;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.slide .card .card-title {
+    color: #000000;
+    font-weight: 600;
+}
+
+.slide .card .card-body p {
+    font-size: 15px;
+}
+
+.slide .card .shop {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.slide .card .shop:hover {
+    color: #cdb136;
+}
+
+.MoreBlogBtn .btn {
+    background-color: black;
+    border: 2px solid#000000;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+}
+
+.MoreBlogBtn .btn:hover {
+    color: #E1C343;
+}
+
+.shopcontact {
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1158px) {
+    .slide .card {
+        width: 18rem;
+    }
+
+    .slide .card p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .bannerRight {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .shopContent {
+        padding: 3rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .shopContent {
+        padding: 2rem 0.3rem;
+    }
+
+    .shopContent .shopTitle {
+        margin-top: 1rem;
+        font-size: 26px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .cat-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .landing {
+        padding: 1rem;
+    }
+
+    .shopContent .shopTitle {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+
+    .shopContent .shopTitle {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .slide .card {
+        width: 16rem;
+    }
+}

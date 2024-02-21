@@ -1,0 +1,58 @@
+.category {
+    padding: 10rem 0 5rem 0;
+}
+
+.category .CatHeading {
+    padding-bottom: 0.5rem;
+    border-bottom: 4px dashed #E1C343;
+    font-weight: 600;
+}
+
+.category .card {
+    margin-top: 0.5rem;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.category .card img {
+    border-radius: 0;
+    height: 220px;
+}
+
+.category .card .card-body {
+    padding: 0.1rem 0
+}
+
+.category .card .card-title {
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.category .card .card-body .icon {
+    color: #f9a02c;
+    margin-bottom: 0.3rem;
+    padding: 0 0.07rem;
+    font-size: 20px;
+}
+
+.category .card .card-body .review {
+    margin-left: 0.5rem;
+}
+
+.category .card .desclink {
+    text-decoration: none;
+    color: black;
+}
+
+.category .card .desclink:hover {
+    color: black;
+}
+
+.category .card .card-body .card-text {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
